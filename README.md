@@ -1,5 +1,6 @@
 # Ansible Role: Apt-Cacher NG
 [![Build Status](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng.svg?branch=master)](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng?ref=badge_shield)
 
 This role installs and configures [apt-cacher-ng] on Debian servers.
 
@@ -57,3 +58,6 @@ None
 GPL-3.0
 
 [apt-cacher-ng]: <https://www.unix-ag.uni-kl.de/~bloch/acng/>
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng?ref=badge_large)
