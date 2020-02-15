@@ -1,0 +1,7 @@
+---
+- name: Install AptCacherNG
+  include: install.yml
+
+- name: Configure AptCacherNG
+  include: configure.yml
+...

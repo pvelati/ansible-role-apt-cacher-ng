@@ -1,0 +1,36 @@
+---
+- name: Create CacheDir
+  file:
+    path: "{{ apt_cacher_ng.cache_dir }}"
+    owner: apt-cacher-ng
+    group: apt-cacher-ng
+    mode: 2755
+    state: directory
+
+- name: Configure apt-cacher-ng
+  template:
+    src: "{{ item }}.j2"
+    dest: "/etc/apt-cacher-ng/{{ item }}"
+    owner: root
+    group: root
+    mode: 0644
+  with_items:
+    - acng.conf
+    - security.conf
+  notify:
+    - Restart apt-cacher-ng
+
+- name: Remove /etc/apt-cacher-ng/zz_debconf.conf
+  file:
+    path: /etc/apt-cacher-ng/zz_debconf.conf
+    state: absent
+  notify:
+    - Restart apt-cacher-ng
+
+- name: Enable apt-cacher-ng on boot
+  systemd:
+    name: apt-cacher-ng
+    state: started
+    masked: no
+    enabled: yes
+...

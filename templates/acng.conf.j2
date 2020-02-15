@@ -1,0 +1,29 @@
+# {{ ansible_managed }}
+
+CacheDir: {{ apt_cacher_ng.cache_dir }}
+ExTreshold: {{ apt_cacher_ng.ex_treshold }}
+LocalDirs: {{ apt_cacher_ng.local_dirs }}
+LogDir: {{ apt_cacher_ng.log_dir }}
+PidFile: {{ apt_cacher_ng.pid_file }}
+Port: {{ apt_cacher_ng.port }}
+Remap-debrep: {{ apt_cacher_ng.remap_debrep }} # Debian Archives
+Remap-uburep: {{ apt_cacher_ng.remap_uburep }} # Ubuntu Archives
+Remap-debvol: {{ apt_cacher_ng.remap_debvol }} # Debian Volatile Archives
+Remap-alxrep: {{ apt_cacher_ng.remap_alxrep }} # Arch Linux
+Remap-fedora: {{ apt_cacher_ng.remap_fedora }} # Fedora Linux
+Remap-epel:   {{ apt_cacher_ng.remap_epel }} # Fedora EPEL
+Remap-slrep:  {{ apt_cacher_ng.remap_slrep }} # Scientific Linux
+Remap-gentoo: {{ apt_cacher_ng.remap_gentoo }} # Gentoo Archives
+Remap-centosmirrorlist: {{ apt_cacher_ng.remap_centosmirrorlist }} # CentOS Mirror List
+Remap-centos: {{ apt_cacher_ng.remap_centos }} # CentOS Linux
+Remap-alpine: {{ apt_cacher_ng.remap_alpine }} # Alpine Linux
+ReportPage: {{ apt_cacher_ng.report_page }}
+SupportDir: {{ apt_cacher_ng.support_dir }}
+VerboseLog: {{ apt_cacher_ng.verbose_log }}
+RequestAppendix: {{ apt_cacher_ng.request_appendix }}
+PassThroughPattern: {{ apt_cacher_ng.passthrough_pattern }}
+MaxConThreads: {{ apt_cacher_ng.max_con_threads }}
+VfilePatternEx: {{ apt_cacher_ng.vfile_pattern_ex }} 
+PfilePatternEx: {{ apt_cacher_ng.pfile_pattern_ex }}
+RequestAppendix: {{ apt_cacher_ng.request_appendix }}
+DontCache: {{ apt_cacher_ng.dont_cache }} 
