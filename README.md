@@ -1,4 +1,5 @@
 # Ansible Role: Apt-Cacher NG
+[![Build Status](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng.svg?branch=master)](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng)
 
 This role installs and configures [apt-cacher-ng] on Debian servers.
 
