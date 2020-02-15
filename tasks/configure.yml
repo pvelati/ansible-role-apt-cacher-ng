@@ -31,6 +31,6 @@
   systemd:
     name: apt-cacher-ng
     state: started
-    masked: no
-    enabled: yes
+    masked: false
+    enabled: true
 ...
