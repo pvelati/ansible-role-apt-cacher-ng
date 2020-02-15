@@ -40,6 +40,8 @@ apt_cacher_ng:
 
 ## Dependencies
 
+None
+
 ## Example Playbook
 ```
 ---
