@@ -6,6 +6,12 @@ env:
     tag: buster
   - distro: debian
     tag: stretch
+  - distro: ubuntu
+    tag: focal
+  - distro: ubuntu
+    tag: bionic
+  - distro: ubuntu
+    tag: xenial
 
 services:
   - docker
