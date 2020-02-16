@@ -1,10 +1,24 @@
 # Ansible Role: Apt-Cacher NG
 [![Build Status](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng.svg?branch=master)](https://travis-ci.org/pvelati/ansible-role-apt-cacher-ng) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpvelati%2Fansible-role-apt-cacher-ng?ref=badge_shield)
 
-This role installs and configures [apt-cacher-ng] on Debian servers.
+This role installs and configures [apt-cacher-ng].
+
+#### Works on:
+- Debian
+  - buster (10)
+  - stretch (9)
+- Ubuntu
+  - focal (20.04)
+  - bionic (18.04)
+  - xenial (16.04)
 
 ## Requirements
-OS: Debian
+See *requirements.txt*.
+
+Use this command to install all requirements:
+```
+pip install -r requirements.txt
+```
 
 ## Role Variables
 ```
