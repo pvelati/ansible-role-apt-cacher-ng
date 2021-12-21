@@ -5,6 +5,7 @@ This role installs and configures [apt-cacher-ng].
 
 #### Works on:
 - Debian
+  - bullseye (11)
   - buster (10)
   - stretch (9)
 - Ubuntu
